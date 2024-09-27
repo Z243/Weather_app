@@ -19,9 +19,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             WeatherAppTheme {
-                /*Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
-                }*/
+                Text(modifier = Modifier,text="let's go")
+
             }
         }
     }
